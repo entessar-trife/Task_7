@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary         : #FA8B02;
-  --color-secondary       : #333333;
+  --color-primary  : #FA8B02;
+  --color-secondary: #333333;
 }
 
 .podcast-font {
