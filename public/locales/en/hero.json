@@ -1,0 +1,53 @@
+{
+  "enjoy": "Enjoy in the best way!",
+  "enjoy_desc": "Enjoy our services for your trip anytime",
+
+  "about": "Our team cares about your full relax",
+  "about_desc": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+  "link": "View our Tour Packages",
+
+  "welcome": "Welcome to our tour packages",
+  "welcome_desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis sed atque recusandae quo cumque asperiores reprehenderit veritatis rem, numquam accusantium dicta nam aliquid in? Molestiae nihil neque iusto sunt. Eligendi.",
+
+  "contact": "Contact with us",
+  "contact_desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis sed atque recusandae quo cumque asperiores reprehenderit veritatis rem, numquam accusantium dicta nam aliquid in? Molestiae nihil neque iusto sunt. Eligendi.",
+
+  "public_tours": "Public Tours",
+  "private_tours": "Private Tours",
+
+  "number_of_people": "Number of people",
+  "choose_number": "Choose number",
+  "10": "10",
+  "35": "35",
+  "40": "40",
+
+  "choose_date": "Choose Date",
+  "date": "Date",
+  "date_1": "4/8/2025",
+  "date_2": "10/12/2025",
+  "date_3": "5/11/2025",
+  "date_4": "1/1/2026",
+
+  "tour": "Tour",
+  "select_tour": "Select Tour",
+  "tour_1": "Greece",
+  "tour_2": "Rome",
+  "tour_3": "Istanbul",
+  "tour_4": "Cairo",
+  "tour_5": "Maldives",
+
+  "time": "Time",
+  "choose_time": "Choose Time",
+  "time_1": "10:00 Pm",
+  "time_2": "3:30 Am",
+  "time_3": "2:00 Pm",
+  "time_4": "9:45 Pm",
+
+  "transportation": "Transportation",
+  "select_transportation": "Select Transportation",
+  "bus": "Bus",
+  "bike": "Bike",
+  "car": "Car",
+  "train": "Train",
+  "boat": "Boat"
+}

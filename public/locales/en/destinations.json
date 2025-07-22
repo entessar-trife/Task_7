@@ -1,0 +1,27 @@
+{
+  "section_title": "Explore Our Popular Destinations ",
+
+  "lucca_title": "Lucca Bike Tour",
+  "lucca_desc": "A tour of the city and its surroundings led by a professional guide ...",
+  "lucca_price": "  34 € ",
+  "lucca_date": "every day",
+  "lucca_people": "3-10 PP",
+
+  "wine_title": "Wine tasting In Tuscany",
+  "wine_desc": "The real magic is here where you can enjoy the best Tuscan wine and eat ...",
+  "wine_price": "  34 € ",
+  "wine_date": "monday",
+  "wine_people": "10-30 PP",
+
+  "cinque_title": "Cinque Terre Tour",
+  "cinque_desc": "Visiting the 5 Terre is a must, and you can never go there enough ...",
+  "cinque_price": "  34 € ",
+  "cinque_date": "TO BE DECIDED",
+  "cinque_people": "10-50 PP",
+
+  "siena_title": "Siena and Surroundings",
+  "siena_desc": "Visit the beautiful Siena and the cities that surround it to experience ...",
+  "siena_price": "  34 € ",
+  "siena_date": "TO BE DECIDED",
+  "siena_people": "5-10 PP"
+}

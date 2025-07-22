@@ -1,0 +1,33 @@
+{
+  "section_title": "أشهر الجولات السياحية",
+
+  "rickshaw_title": "دراجة",
+  "rickshaw_days": "١٠",
+  "rickshaw_advantage_1": "دراجتك ليوم كامل",
+  "rickshaw_advantage_2": "تطبيق المدينة",
+  "rickshaw_advantage_3": "خصم على الركشة",
+  "rickshaw_advantage_4": "دعم مضمون",
+
+  "bike_title": "جولات بالدراجة ",
+  "bike_days": "٣٠",
+  "bike_advantage_1": "دراجة جبلية مشمولة",
+  "bike_advantage_2": "مرشد سياحي خاص بك",
+  "bike_advantage_3": "زجاجة ماء",
+  "bike_advantage_4": "دعم مضمون",
+
+  "bus_title": "رحلات بالحافلة",
+  "bus_days": "٤٥",
+  "bus_advantage_1": "تذكرة دخول للحديقة",
+  "bus_advantage_2": "حافلة ذهاب وعودة",
+  "bus_advantage_3": "مرافق",
+  "bus_advantage_4": "دعم مضمون",
+
+  "transfer_title": "خدمة التوصيل",
+  "transfer_days": "١٠",
+  "transfer_advantage_1": "سائق خاص",
+  "transfer_advantage_2": "إلى أي مكان تريد",
+  "transfer_advantage_3": "بأفضل سعر",
+  "transfer_advantage_4": "دعم مضمون",
+
+  "package_btn": "احجز الآن"
+}

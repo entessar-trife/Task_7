@@ -1,0 +1,33 @@
+{
+  "section_title": "The Most Popular Packages",
+
+  "rickshaw_title": "BIKE / RICKSHAW",
+  "rickshaw_days": "10",
+  "rickshaw_advantage_1": "Your bike for a day",
+  "rickshaw_advantage_2": "City App",
+  "rickshaw_advantage_3": "Discount on Rickshaw",
+  "rickshaw_advantage_4": "Guaranteed Support",
+
+  "bike_title": "BIKE TOURS",
+  "bike_days": "30",
+  "bike_advantage_1": "A Mountain Bike Included",
+  "bike_advantage_2": "A Guide For You",
+  "bike_advantage_3": "Bottle of water",
+  "bike_advantage_4": "Guaranteed Support",
+
+  "bus_title": "BUS TRIPS",
+  "bus_days": "45",
+  "bus_advantage_1": "Park ticket",
+  "bus_advantage_2": "Return bus",
+  "bus_advantage_3": "Companion",
+  "bus_advantage_4": "Guaranteed Support",
+
+  "transfer_title": "TRANSFER",
+  "transfer_days": "10",
+  "transfer_advantage_1": "Personal Driver",
+  "transfer_advantage_2": "Wherever You Want",
+  "transfer_advantage_3": "At the best price",
+  "transfer_advantage_4": "Guaranteed Support",
+
+  "package_btn": "Book Now"
+}

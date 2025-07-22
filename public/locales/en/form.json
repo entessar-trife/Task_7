@@ -1,0 +1,39 @@
+{
+   "name": "Name and Surname",
+  "enter_name": "Enter your name and surname",
+
+  "email": "Email Address",
+  "enter_email": "Enter your email address",
+
+  "number": "Telephone Number",
+  "enter_number": "Enter your telephone number",
+
+  "date": "Date",
+  "select_date": "Select the date",
+
+  "time": "Time",
+  "select_time": "Select the time",
+
+  "service": "Service Type",
+  "select_service": "Select the service types",
+
+  "password": "Password",
+  "enter_password": "Enter your email Password",
+  
+  "create_account": " Create Account",
+  "agree": "I agree with  ",
+  "terms": "  Terms",
+  "and": "  and",
+  "privacy": "  Privacy",
+  "or": "or",
+  "sign_up": "Sign Up",
+  "signUp_google": "Sign Up with Google",
+  "have_account": "Already have an account?",
+  "log_in": "Log In",
+
+  "logIn": "Login",
+  "forget_password": "Forgot your password?",
+  "sign_in": "Sign In",
+  "signIp_google": "Sign In with Google",
+  "no_account": "Don’t have an account ? "
+}
