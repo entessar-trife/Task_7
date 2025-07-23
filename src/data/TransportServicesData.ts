@@ -1,5 +1,5 @@
 import { CardComponentProps } from "@/type/CardComponent";
-import { t, TFunction } from "i18next";
+import { TFunction } from "i18next";
 
 export const getTransportServicesData = (t: TFunction): CardComponentProps[] => [
   {

@@ -35,6 +35,7 @@ const BookComponent = () => {
                 id={e.id}
                 placeHolder={e.placeHolder}
                 type={e.type}
+                icon={e.icon}
               />
             ))}
           </div>
@@ -49,6 +50,7 @@ const BookComponent = () => {
                 id={e.id}
                 placeHolder={e.placeHolder}
                 type={e.type}
+                icon={e.icon}
               />
             ))}
           </div>

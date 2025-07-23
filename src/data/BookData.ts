@@ -1,6 +1,7 @@
 import { InputComponentProps } from "@/type/InputComponent";
-import { t, TFunction } from "i18next";
-import { SlCalender } from "react-icons/sl";
+import { TFunction } from "i18next";
+import { BiCalendar } from "react-icons/bi";
+import { LuClock3 } from "react-icons/lu";
 
 export const getBookData = (t: TFunction): InputComponentProps[] => [
   {
@@ -22,10 +23,11 @@ export const getBookData = (t: TFunction): InputComponentProps[] => [
   {
     inputStyle: "gap-2",
     label: t("date"),
-    type: "date",
+    type: "text",
     placeHolder: t("select_date"),
     htmlFor: "date",
     id: "date",
+    icon: BiCalendar,
   },
   {
     inputStyle: "gap-2",
@@ -46,10 +48,10 @@ export const getBookData = (t: TFunction): InputComponentProps[] => [
   {
     inputStyle: "gap-2",
     label: t("time"),
-    type: "time",
+    type: "text",
     placeHolder: t("select_time"),
     htmlFor: "time",
     id: "time",
-
+    icon: LuClock3,
   },
 ];

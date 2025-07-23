@@ -10,11 +10,7 @@ const PackagesSection = () => {
   const packagesData = getPackagesData(t);
 
   return (
-    <section
-      className="
-    pt-24 md:pt-[120px]
-    px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px]"
-    >
+    <section className="pt-24 md:pt-[120px] px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px]">
       <TitleComponent
         mainTitle={t("section_title")}
         aos={i18n.language == "en" ? "fade-right" : "fade-left"}

@@ -1,6 +1,6 @@
+import i18n from "@/i18n";
 import { InputComponentProps } from "@/type/InputComponent";
 import React from "react";
-import DatePicker from "react-datepicker";
 
 const InputComponent: React.FC<InputComponentProps> = ({
   inputStyle,
@@ -11,6 +11,7 @@ const InputComponent: React.FC<InputComponentProps> = ({
   type,
   placeHolder,
   border,
+  icon: Icon,
 }) => {
   return (
     <div className={`flex flex-col ${inputStyle}`}>
@@ -20,21 +21,20 @@ const InputComponent: React.FC<InputComponentProps> = ({
       >
         {label}
       </label>
-      <input
-        id={id}
-        type={type}
-        placeholder={placeHolder}
-        className={`py-3.5 px-6 bg-white rounded-lg w-full 
-         placeholder-secondary-50 text-base font-medium leading-[100%]
-         ${border ? "border border-[#33333333]" : ""}`}
-      />
-      {/* <DatePicker
-        selected={selectedDate}
-        onChange={(date) => setSelectedDate(date)}
-        dateFormat="yyyy/MM/dd"
-        placeholderText="اختر تاريخاً"
-        className="border border-gray-300 rounded px-3 py-2 w-full"
-      /> */}
+      <div className="relative">
+        <input
+          id={id}
+          type={type}
+          placeholder={placeHolder}
+          className={`py-3.5 px-6 bg-white rounded-lg w-full 
+          placeholder-secondary-50 text-base font-medium leading-[100%]
+          ${border ? "border border-[#33333333]" : ""}`}
+        />
+        {Icon && (
+          <Icon className={`absolute top-3.5 h-6 w-6 text-secondary/50
+            ${i18n.language=="ar" ? "left-3.5 ":"right-3.5 "}`} />
+        )}
+      </div>
     </div>
   );
 };

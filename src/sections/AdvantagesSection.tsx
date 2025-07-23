@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import CardComponent from "@/components/CardComponent";
 import { getAdvantagesData } from "@/data/AdvantagesData";
 import React from "react";

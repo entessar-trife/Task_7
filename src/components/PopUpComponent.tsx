@@ -51,7 +51,7 @@ const PopUpComponent: React.FC<PopUpComponentProps> = ({
         className="flex flex-col gap-6
       bg-white shadow-[0px_4px_20px_0px_#FFFFFF40] rounded-3xl
        py-10 px-6 md:px-[59px] w-[488px]"
-        data-aos="zoom-out"
+        data-aos="fade-down"
       >
         <div className="flex items-center justify-between">
           <span className="text-[32px] font-bold leading-[100%] text-secondary">
