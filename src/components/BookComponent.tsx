@@ -14,7 +14,7 @@ const BookComponent = () => {
     <div className="flex flex-col items-center w-full xl:w-[51.726%]">
       <TitleComponent
         mainTitle={
-          i18n.language == "en" ? "Book Now Bike" : "احجز الدراجة الآن"
+          i18n.language == "en" ? "Book Now Bike" : "احجز دراجة الآن"
         }
         aos={i18n.language == "en" ? "fade-right" : "fade-left"}
       />
