@@ -18,7 +18,7 @@ const MainButton: React.FC<MainButtonProps> = ({
     <button
       onClick={onClick}
       className={`relative text-base xl:text-xl font-semibold leading-[100%] cursor-pointer
-         rounded-[50px] py-2.5 px-4 xl:px-6 
+         rounded-[50px] py-2.5 px-3 xl:px-6 
      ${btnStyle}`}
       data-aos={aos}
     >
