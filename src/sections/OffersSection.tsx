@@ -29,6 +29,7 @@ const OffersSection = () => {
               ? "احصل على عروض خاصة للمؤسسات"
               : "Get Special Offers for Organizations"
           }
+          mainTitleStyle="mx-auto"
           desc={
             isAr
               ? "احصل على عروض خاصة للمؤسسات , احصل على عروض خاصة للمؤسسات, احصل على عروض خاصة للمؤسسات , احصل على عروض خاصة للمؤسسات"
