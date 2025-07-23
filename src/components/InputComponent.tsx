@@ -1,5 +1,6 @@
 import { InputComponentProps } from "@/type/InputComponent";
 import React from "react";
+import DatePicker from "react-datepicker";
 
 const InputComponent: React.FC<InputComponentProps> = ({
   inputStyle,
@@ -27,6 +28,13 @@ const InputComponent: React.FC<InputComponentProps> = ({
          placeholder-secondary-50 text-base font-medium leading-[100%]
          ${border ? "border border-[#33333333]" : ""}`}
       />
+      {/* <DatePicker
+        selected={selectedDate}
+        onChange={(date) => setSelectedDate(date)}
+        dateFormat="yyyy/MM/dd"
+        placeholderText="اختر تاريخاً"
+        className="border border-gray-300 rounded px-3 py-2 w-full"
+      /> */}
     </div>
   );
 };

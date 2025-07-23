@@ -10,7 +10,7 @@ const MainHero = () => {
     <div
       className="flex flex-col justify-center items-center
        px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px]
-    h-screen bg-[url(/images/hero/hero_1.webp)] bg-no-repeat bg-cover
+    min-h-svh bg-[url(/images/hero/hero_1.webp)] bg-no-repeat bg-cover
     bg-black/20 bg-blend-overlay"
     >
       <HeroContent

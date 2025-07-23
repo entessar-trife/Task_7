@@ -1,11 +1,10 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import MainButton from "../MainButton";
 import PopUpComponent from "../PopUpComponent";
 import { getSignUpPopupData } from "@/data/SignUpPopupData";
 import { getLogInPopupData } from "@/data/LogInPopupData";
 import { useTranslation } from "react-i18next";
-import i18n from "@/i18n";
 
 interface NavBtnsProps {
   direction?: "row" | "col";
@@ -14,7 +13,6 @@ interface NavBtnsProps {
 
 const NavBtns: React.FC<NavBtnsProps> = ({ direction, btnStyle }) => {
   const [activeBtn, setActiveBtn] = useState<string>("sign");
-  const [scroll, setScroll] = useState<boolean>(false);
   const [showSignUpPopup, setShowSignUpPopup] = useState<boolean>(false);
   const [showLogInPopup, setShowLogInPopup] = useState<boolean>(false);
 
@@ -23,22 +21,6 @@ const NavBtns: React.FC<NavBtnsProps> = ({ direction, btnStyle }) => {
 
   const signUpPopupData = getSignUpPopupData(t);
   const logInPopupData = getLogInPopupData(t);
-
-  // const handleScroll = () => {
-  //   if (window.scrollY > 50) {
-  //     setScroll(true);
-  //   } else {
-  //     setScroll(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [scroll]);
 
   return (
     <div className={`flex gap-2.5 ${direction === "col" ? "flex-col" : ""}`}>

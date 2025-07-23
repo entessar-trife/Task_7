@@ -11,7 +11,7 @@ const HeroContent: React.FC<HeroContentData> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col items-center text-white max-lg:pt-32 max-lg:px-5  
+      className={`flex flex-col items-center text-white max-lg:pt-48 max-lg:px-5  
     ${heroContentStyle}`}
       data-aos="zoom-in"
     >

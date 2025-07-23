@@ -12,7 +12,7 @@ const HeroTabs = () => {
 
   return (
     <div
-      className="mt-8 md:mt-[60px] rounded-xl bg-[#FFFFFF33] p-5 w-full max-w-[1383px]"
+      className="my-8 md:mt-[60px] rounded-xl bg-[#FFFFFF33] p-5 w-full max-w-[1383px]"
       data-aos="zoom-in"
     >
       <div className="flex max-[450px]:flex-col w-full max-[450px]w-[355px] cursor-pointer">
