@@ -24,21 +24,21 @@ const NavBtns: React.FC<NavBtnsProps> = ({ direction, btnStyle }) => {
   const signUpPopupData = getSignUpPopupData(t);
   const logInPopupData = getLogInPopupData(t);
 
-  const handleScroll = () => {
-    if (window.scrollY > 50) {
-      setScroll(true);
-    } else {
-      setScroll(false);
-    }
-  };
+  // const handleScroll = () => {
+  //   if (window.scrollY > 50) {
+  //     setScroll(true);
+  //   } else {
+  //     setScroll(false);
+  //   }
+  // };
 
-  useEffect(() => {
-    document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [scroll]);
+  // useEffect(() => {
+  //   document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, [scroll]);
 
   return (
     <div className={`flex gap-2.5 ${direction === "col" ? "flex-col" : ""}`}>
@@ -46,8 +46,7 @@ const NavBtns: React.FC<NavBtnsProps> = ({ direction, btnStyle }) => {
         btnName={tNav("login")}
         btnStyle={`pt-2.5 pb-3.5 duration-500 hover:bg-primary ${
           activeBtn === "log" ? "bg-primary w-[110px] xl:w-[168px]" : ""
-        }
-          ${scroll ? "text-secondary" : "text-white"} ${btnStyle}`}
+        } ${btnStyle}`}
         onClick={() => {
           setActiveBtn("log");
           setShowLogInPopup(true);
@@ -57,8 +56,7 @@ const NavBtns: React.FC<NavBtnsProps> = ({ direction, btnStyle }) => {
         btnName={tNav("signup")}
         btnStyle={`pt-2.5 pb-3.5 duration-500 hover:bg-primary ${
           activeBtn === "sign" ? "bg-primary w-[110px] xl:w-[168px]" : ""
-        }
-          ${scroll ? "text-secondary" : "text-white"} ${btnStyle}`}
+        } ${btnStyle}`}
         onClick={() => {
           setActiveBtn("sign");
           setShowSignUpPopup(true);

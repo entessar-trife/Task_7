@@ -51,7 +51,7 @@ const NavBar = () => {
 
         <div className="hidden lg:flex justify-between items-center xl:gap-2.5">
           <LangSwitcher color={scroll ? "text-secondary" : "text-white"} />
-          <NavBtns />
+          <NavBtns btnStyle={` ${scroll ? "text-secondary" : "text-white"}`} />
         </div>
 
         <FaBars
