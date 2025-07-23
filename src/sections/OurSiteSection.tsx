@@ -54,7 +54,7 @@ const OurSiteSection: React.FC<OurSiteSectionProps> = ({
                 end={e.end}
                 duration={3}
                 className="text-primary text-[32px] font-bold leading-8"
-                suffix=" +"
+                suffix="+"
               />
               <span className="font-normal text-base leading-[26px] mt-1.5 text-secondary/60">
                 {" "}

@@ -13,7 +13,7 @@ const CustomerComponent: React.FC<CustomersData> = ({
     >
       <img
         src={customerImage}
-        className="h-20 w-20 rounded-full"
+        className="h-20 w-20 rounded-full duration-300 hover:scale-110 cursor-pointer"
         alt="customer image"
       />
       <h3 className="text-lg font-normal leading-[100%] mt-[15px] text-myBlack">
