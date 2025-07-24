@@ -1,4 +1,7 @@
 import { TFunction } from "i18next";
+import { IconType } from "react-icons";
+import { FaFacebookF, FaInstagram, FaLocationDot, FaPhone, FaTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 interface FooterData {
   title: string;
@@ -7,8 +10,9 @@ interface FooterData {
 }
 interface links {
   href: string;
-  icon?: string;
+  icon?: IconType;
   linkName?: string;
+  social?: boolean;
 }
 
 export const getFooterData = (t: TFunction): FooterData[] => [
@@ -78,17 +82,17 @@ export const getFooterData = (t: TFunction): FooterData[] => [
     title: t("title_4"),
     links: [
       {
-        icon: "/images/footer/location_icon.png",
+        icon: FaLocationDot,
         href: "/",
-        linkName: t("link_12")
+        linkName: t("link_12"),
       },
       {
-        icon: "/images/footer/phone_icon.png",
+        icon: FaPhone,
         href: "/",
         linkName: t("link_13")
       },
       {
-        icon: "/images/footer/email_icon.png",
+        icon: MdEmail,
         href: "/",
         linkName: t("link_14")
       },
@@ -100,15 +104,18 @@ export const getFooterData = (t: TFunction): FooterData[] => [
     flexDirection: true,
     links: [
       {
-        icon: "/images/footer/twitter_icon.png",
+        social: true,
+        icon: FaTwitter,
         href: "/",
       },
       {
-        icon: "/images/footer/facebook_icon.png",
+        social: true,
+        icon: FaFacebookF,
         href: "/",
       },
       {
-        icon: "/images/footer/instagram_icon.png",
+        social: true,
+        icon: FaInstagram,
         href: "/",
       },
     ],

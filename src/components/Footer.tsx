@@ -29,13 +29,13 @@ const Footer = () => {
                   key={index}
                   className="flex items-center gap-2.5 text-lg font-semibold leading-[30px] duration-300 hover:text-primary"
                 >
-                  {link.icon && (
-                    <img
-                      src={link.icon}
-                      className="duration-300 hover:scale-125 cursor-pointer"
-                      alt="icon"
-                    />
-                  )}
+                  {link.icon && link.social ? (
+                    <div className="flex items-center justify-center bg-primary text-secondary h-[50px] w-[50px] rounded-full duration-300 hover:scale-125 cursor-pointer">
+                      <link.icon className="h-[30px] w-[30px] " />
+                    </div>
+                  ) : link.icon ? (
+                    <link.icon className="h-6 w-6 text-primary" />
+                  ) : null}
                   <Link href={link.href}>{link.linkName}</Link>
                 </li>
               ))}
