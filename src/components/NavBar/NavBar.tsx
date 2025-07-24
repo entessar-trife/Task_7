@@ -38,7 +38,7 @@ const NavBar = () => {
       >
         <img
           src="/images/logo.webp"
-          className="w-[110px] h-[100px] xl:w-auto xl:h-auto"
+          className="w-[80px] h-[75px] md:w-[110px] md:h-[100px] xl:w-auto xl:h-auto"
           alt="hero image"
         />
 

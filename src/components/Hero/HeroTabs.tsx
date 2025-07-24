@@ -94,7 +94,7 @@ const HeroTabs = () => {
             ));
           }
         })}
-        <div className="flex justify-center items-center w-20 h-20  bg-primary rounded-xl">
+        <div className="flex justify-center items-center w-14 h-14 lg:w-20 lg:h-20  bg-primary rounded-xl">
           <IoSearch className="w-8 h-8 text-white cursor-pointer" />
         </div>
       </div>
