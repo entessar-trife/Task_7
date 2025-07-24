@@ -14,13 +14,13 @@ export default function DestinationsSection() {
   const isAr = i18n.language === "ar";
 
   return (
-    <section className="px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px] pt-24 md:pt-[123px]">
+    <section className="px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px] pt-14 md:pt-[123px]">
       <TitleComponent
         isSlider={true}
         mainTitle={t("section_title")}
         aos={isAr ? "fade-left" : "fade-right"}
       />
-      <div className="flex justify-between gap-[33px] mt-[60px]">
+      <div className="flex justify-between gap-[33px] mt-10 md:mt-[60px]">
         <Swiper
           dir={isAr ? "rtl" : "ltr"}
           modules={[Navigation]}

@@ -6,7 +6,7 @@ import React from "react";
 const OffersSection = () => {
   const isAr = i18n.language === "ar";
   return (
-    <section className="relative px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px] py-[60px] mt-24 md:mt-[217px] bg-[#fec391]">
+    <section className="relative px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px] py-10 md:py-[60px] mt-14 md:mt-[217px] bg-[#fec391]">
       <img
         src="/images/offers_picture.webp"
         className={`absolute bottom-0 hidden lg:block 

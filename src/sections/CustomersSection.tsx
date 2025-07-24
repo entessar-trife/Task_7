@@ -12,13 +12,13 @@ const CustomersSection = () => {
   const customersData = getCustomersData(t);
 
   return (
-    <section className="pt-24 md:pt-[123px] px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px]">
+    <section className="pt-14 md:pt-[123px] px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px]">
       <TitleComponent
         mainTitle={t("section_title")}
         isSlider={true}
         aos={i18n.language == "en" ? "fade-right" : "fade-left"}
       />
-      <div className="flex justify-between gap-5 mt-[60px]">
+      <div className="flex justify-between gap-5 mt-10 md:mt-[60px]">
         <Swiper
           dir={i18n.language == "ar" ? "rtl" : "ltr"}
           modules={[Navigation, Autoplay]}

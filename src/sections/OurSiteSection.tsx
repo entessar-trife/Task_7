@@ -30,7 +30,7 @@ const OurSiteSection: React.FC<OurSiteSectionProps> = ({
     <section
       className={`flex justify-center min-[1920px]:justify-between items-center 
         px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px]
-        pt-24 md:pt-[120px]
+        pt-14 md:pt-[120px]
         ${sectionStyle}
     `}
     >

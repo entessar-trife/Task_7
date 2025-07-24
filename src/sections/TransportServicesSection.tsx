@@ -9,7 +9,7 @@ const TransportServicesSection = () => {
   const transportServices = getTransportServicesData(t);
 
   return (
-    <section className="px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px] flex max-lg:flex-wrap justify-center min-[820px]:justify-between pt-24 md:pt-[120px] gap-[33px]">
+    <section className="px-5 md:px-[100px] [@media(min-width:1920px)]:px-[250px] flex max-lg:flex-wrap justify-center min-[820px]:justify-between pt-14 md:pt-[120px] gap-[33px]">
       {transportServices.map((card, index) => (
         <CardComponent
           key={index}
